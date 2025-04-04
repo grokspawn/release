@@ -1172,6 +1172,7 @@ periodics:
       - --log-level=debug
       - --self-approve=true
       - --dry-run=false
+      - --force-remerge
       command:
       - /usr/bin/bumper
       env:
